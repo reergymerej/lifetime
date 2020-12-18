@@ -1,0 +1,25 @@
+.App {
+  padding: 2em;
+}
+
+.Schedule {
+  border: 1px solid lightgray;
+}
+
+.Milemarker {
+  display: flex;
+  border-bottom: 1px solid lightgray;
+  padding: 1em;
+}
+
+.Milemarker:nth-child(even) {
+  background: rgba(0, 0, 0, 0.03);
+}
+
+.Milemarker:last-of-type {
+  border-bottom: 0;
+}
+
+.time, .age, .label {
+  flex: 1;
+}
